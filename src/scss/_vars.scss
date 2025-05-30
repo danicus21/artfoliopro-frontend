@@ -1,0 +1,46 @@
+// Vars
+
+:root {
+  // base
+  --base-txt-color: #1a1a1a;  // Near black for better readability
+  --heading-color: #000;       // Pure black for headings
+  --base-font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;  // Modern, clean font
+  --body-bg: #ffffff;          // Pure white background
+  
+
+  // colors  
+  $brand-color: #0066FF;       // Clean blue accent 
+  --brand-color: #{$brand-color};
+  --link-color: var(--brand-color);
+  
+  // grays
+  --gray-light: #F5F5F5;
+  --gray-medium: #E0E0E0;
+  --gray-dark: #757575;
+  
+  // app header
+  --app-header-height: 70px;   // Slightly taller for more breathing room
+  --app-header-txt-color: #000;  // Black text on white header
+  --app-header-bg: #fff;       // White header
+  --app-header-title-font-size: 1.3em;
+
+  // shoelace tokens
+  --sl-color-primary-50: #E6F0FF;
+  --sl-color-primary-100: #{lighten($brand-color, 40%)};
+  --sl-color-primary-200: #{lighten($brand-color, 30%)};
+  --sl-color-primary-300: #{lighten($brand-color, 20%)};
+  --sl-color-primary-400: #{lighten($brand-color, 10%)};
+  --sl-color-primary-500: #{$brand-color};
+  --sl-color-primary-600: #{darken($brand-color, 10%)};
+  --sl-color-primary-700: #{darken($brand-color, 20%)};
+  --sl-color-primary-800: #{darken($brand-color, 30%)};
+  --sl-color-primary-900: #{darken($brand-color, 40%)};
+  --sl-focus-ring-color-primary: #{rgba($brand-color, 0.1)};
+  
+  // spacing
+  --space-xs: 0.5rem;
+  --space-sm: 1rem;
+  --space-md: 2rem;
+  --space-lg: 3rem;
+  --space-xl: 4rem;
+}
