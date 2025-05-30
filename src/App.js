@@ -7,7 +7,7 @@ class App {
   constructor(){
     this.name = "ArtfolioPro"  
     this.version = "1.0.0"
-    this.apiBase = 'http://localhost:3000'
+    this.apiBase = 'https://artfoliopro-backend.onrender.com'
     this.rootEl = document.getElementById("root")
   }
   
